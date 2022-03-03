@@ -92,25 +92,8 @@ result.addEventListener('click', e => {
   }
 });
 ReactDOM.render(
-  <span>
-  <header>
-      <h1>Lyrics_Search</h1>
-
-      <form id="form">
-        <input
-          type="text"
-          id="search"
-          placeholder="Enter artist or song name..."
-        />
-        <button>Search</button>
-      </form>
-    </header>
-
-    <div id="result" class="container">
-      <p>Results </p>
-    </div>
-
-    <div id="more" class="container centered"></div>
-    </span>,
+  <div>
+  
+    </div>,
   document.getElementById("root")
 )
